@@ -1,0 +1,19 @@
+# Ignore Python bytecode files
+__pycache__/
+
+# Ignore build and distribution directories
+build/
+dist/
+
+# Ignore any macOS-specific files
+.DS_Store
+Tk.icns
+
+# Ignore any compiled or generated files
+*.spec
+
+# Ignore any shell script generated files
+builddmg.sh
+
+# Ignore any resource files (customize this if needed)
+resources/
