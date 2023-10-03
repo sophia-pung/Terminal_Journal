@@ -106,6 +106,8 @@ class JournalWindow(QMainWindow):
         # Define the relative path to the journal entry file
         file_name = os.path.join(journal_entries_directory, f"journal_entry_{self.entry_counter}.md")
 
+        print('file_name that entry was saved to', file_name)
+
         timestamp = QDateTime.currentDateTime().toString("ddd MMM dd hh:mm:ss")
 
         try:
